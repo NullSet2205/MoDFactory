@@ -8,11 +8,11 @@ To install:
 1) Download the mod_install.zip folder found at https://github.com/NullSet2205/MoDFactory/raw/refs/heads/main/mod_install.zip
 
 2) Extract the contents of that zip you just downloaded
- - This contains three files (doorstop_config.ini, .doorstop, version.dll) and a folder (BepinEx).
+   - This contains three files (doorstop_config.ini, .doorstop, version.dll) and a folder (BepinEx).
 
 3) Copy the contents to your GoD Factory installation
- - This is usually found C:\Program Files (x86)\Steam\steamapps\common\GoDFactoryWingmen
- - If you are not sure where exactly that is, you can right click on GoD Factory in Steam and go to Manage->Browse local files
+   - This is usually found C:\Program Files (x86)\Steam\steamapps\common\GoDFactoryWingmen
+   - If you are not sure where exactly that is, you can right click on GoD Factory in Steam and go to Manage->Browse local files
 
 4) Launch the game!
 
