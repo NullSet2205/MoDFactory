@@ -1,0 +1,33 @@
+Changes:
+- No more collision damage! Bonk into things at your hearts' content.
+- No more permadeath!
+    - If you die, your ship will return to the hanger at 1 shield. 
+    - Hopefully you have lots of shield regen!
+        - (Later versions of MoD Factory will probably increase the respawn time)
+- Cannon shoots every 4 minutes when destroyed, up from 5.
+    - Cannon destruction is currently far too back-breaking - in most situations, the cannon is more impactful than the core.
+- Resistances now linearly scale your ship's effective health, instead of the compounding defensive bonus they give in the base game. This uses the same formula as most of the other modifier stats. Some noteworthy changes:
+    - High-resistance ships are much more possible to kill
+    - Chorion tank builds are no longer have the effective health of half a carrier part
+    - Crystalline is still really good, but no longer automatically the best Human shield
+- Boosting has been buffed in a number of ways:
+  - Boost no longer costs energy to charge up!
+  - Boost charges faster, down to a minimum of 0.66 seconds at full throttle!
+  - Boost now costs 40 energy per second, down from 50
+  - Arblos ships can now warp while boosting (and will come out of warps still boosting)
+- Accelerating projectiles are now fast enough to be used while boosting or dashing!
+  - This, along with the boosting change, should enable more interesting high-velocy combat
+- You now have 24 ship slots!
+    - Use the scroll wheel on the ship select menu to reach the new slots. (Better UX for this )
+    - Your new ships won't be accessable from the unmodded game, but they'll still be there whenever you play using MoD Factory
+- All parts are marked as available for use in the hangar! 
+  - Enjoy your newfound freedom to build and experiment  (:
+  - Note: this does not unlock any parts in the base game! MoD only
+- Made some changes to prevent players using MoD Factory from joining unmodded lobbies, and vice versa 
+- Updated tooltips in English and in French to match the above changes
+  - German shows the new English tooltips. Translation help would be welcome. 
+
+Bugfixes:
+- Sabotaged Cannon shield will wait until the Cannon finishes firing to reappear
+- The bonus ammo from unused weight is now rounded in game, matching what is shown in the Hangar
+- It is now possible to toggle private games back to public ones
