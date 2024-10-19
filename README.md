@@ -9,7 +9,7 @@ To install:
 
 2) Extract the contents of that zip you just downloaded
     - This contains one folder (BepinEx), 
-    - And six files (.doorstop_version, doorstop_config.ini, PATCHER_VERSION, PatcherPatcher.exe, VERSION, and version.dll).
+    - And four files (.doorstop_version, doorstop_config.ini, VERSION, and version.dll).
 
 3) Copy the contents to your GoD Factory installation
     - This is usually found C:\Program Files (x86)\Steam\steamapps\common\GoDFactoryWingmen
@@ -21,7 +21,7 @@ To temporarily uninstall:
  - Rename the BepinEx folder
 
 To permanently uninstall:
- - Delete the six files and the folder that you copied into the GoD Factory folder.
+ - Delete the four files and the folder that you copied into the GoD Factory folder.
 
 Some highlights from the changes:
  - Permadeath and drones have been removed!
