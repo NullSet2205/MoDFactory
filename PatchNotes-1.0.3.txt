@@ -1,0 +1,63 @@
+New Feature!
+
+You can now import and export ship builds from the hangar!
+ - To export, click the export button in the bottom left (it shares functionality with former Part List button).
+     - This will bring up a code that you can copy and share with other players. 
+ - To import a build, hold Control while clicking any Create New Ship button. 
+     - This will bring up a dialog box where you can paste a code to import that ship. 
+ - Let's grow that community build knowledge!
+
+Balance Adjustments:
+ - The respawn timer is now 20 seconds + 5 seconds per pervious death
+     - The respawn timer in vanilla is 10 seconds + 5 seconds per previous death
+     - We mentioned that this increase was coming along with the removal of permadeath, as a counter to suicide rush strategies. 
+
+ - Destroying the Main Deck increases respawn times by 30 seconds
+     - Destroying Main Deck in vanilla reduced turret fire rate
+     - The Main Deck is in a very appealing target for bombing as the only external part on the bow of the carrier. 
+       However, Turret fire rate is not an impactful enough penalty to really compete with parts with a similar difficulty in 
+       bombing, such as the Radar, let alone the higher value targets like the Repair Bay or the Ammo Depot. We'll see if this 
+       new effect fits the bill.
+
+ - Carrier turrets respawn 3 minutes after they are destroyed.
+     - Turrets are one of the main advantages held by defenders. The idea here is to make things a bit more awkward for 
+       attacking gunships. Notably, every part can be bombed from an angle that avoids the turrets.
+     - As a side effect, this also should help to address an oddity where it was sometimes optimal to repeatedly crash 
+       into carrier parts. Now, that will likely expose you to turret fire.
+     - The 3 minute timer was inspired by the cannon fire rate as that felt like a natural cadence to the game. We can 
+       easily adjust this if needed.
+
+ - Reduced the damage destroying a turret deals to the hull to 150 (30% of a turret's health). 
+     - Previously, destroying a turret dealt 250 damage to the hull (50% of a turret's health). This meant that the optimal 
+       hull bombing strategy with splash weapons was to go around destroying turrets, as that dealt 20% bonus damage to the 
+       hull (120% damage = 50% from turret destruction + 70% from splash), in addition to reducing the effectiveness of 
+       defenders by removing a damage source. Now, the damage is reduced but the utility remains. Worth mentioning, there are 
+       still weapons that deal greater than 70% splash damage, and so those can still be used if you want a build that focuses 
+       on turrets. They respawn now too so you will not run out of targets. 
+
+Quality of Life Adjustments:
+ - Bots will stay on task!
+     - Once you give a command to the bots, they will follow that command until another is given or it becomes invalid.
+     - They will still move about some as they feel appropriate (focusing low enemies, refueling at dock, etc.), but they 
+       will always return to the ordered task.
+     - Essentially, this removes the need to spam commands at the bots. Everything else remains unchanged. 
+
+ - The Carrier Command Improve Turrets revives and repairs all turrets 
+     - Previously, only revived the two turrets closest to the player, within 200 units.
+     - As part of the benefit of Improve Turrets was moved into turrets automatically respawning, we wanted to give this a slight buff.
+     - In practice though, the turrets you want to revive are likely to be the ones near where you are fighting, so the real benefit is minimal.
+     - We are going to keep our eyes on this Add On and may give it additional buffs if needed. 
+
+ - Satellite weapons fire from different sources and have better targeting.
+     - Barrage can now hit the Repair Bay. Hoorah! 
+     - There are a lot of angles attacks could come from, so there still may be room to improve. We'd love feedback. 
+     - Barrage still has some bugs held over from vanilla. We are investigating. 
+
+ - More detailed tooltips for shield regen and dash speed in the Hangar. 
+     - The time to regen to full and the speed while boosting can both be very important values for a ship's design. 
+       Now, they can be viewed automatically in the hangar! 
+     - If there are any other quantities that you feel would be good to add to the Hangar, let us know!
+
+ - (Added in 1.0.2) There's now a Patcher Patcher!
+ - The Patcher Patcher has been redesigned to avoid false positives with antivirus
+     - We will miss you, Auto Hotkey. 
